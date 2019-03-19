@@ -5,4 +5,10 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   driverCopy[key] = value
   return driverCopy
 }
-function 
+
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+  driver[key] = value
+  return driver
+}
+
+function  
