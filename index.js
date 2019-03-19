@@ -18,4 +18,6 @@ delete driverCopy[key]
 return driver
 } 
 
-function 
+function destructivelyDeleteFromDriverByKey(driver, key){
+  
+}
